@@ -12,9 +12,7 @@ root
 |--python
 |--typescript
 |
-.
-.
-.
+. . .
 ```
 
 JavaScript code is in the `typescript` folder
