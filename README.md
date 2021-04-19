@@ -1,6 +1,6 @@
 # LeetCode Practice
 
-Practice algorithm problems 
+Practice algorithm problems, mainly from LeetCode's easy interview questions collection.
 
 ## File Structure and Adding Code
 
