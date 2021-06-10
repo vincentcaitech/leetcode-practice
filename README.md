@@ -8,6 +8,7 @@ The root directory has folders corresponding to the language in which the code w
 
 ```
 root
+|--c++
 |--java
 |--python
 |--typescript
@@ -31,7 +32,7 @@ For class-based languages, write one encompassing class for all problems in a fi
 
 ## Language Specific Guidelines
 
-### Java
+### C++ and Java
 
 Write one class, "Solutions", per file, and each problem should be a public method
 
@@ -46,7 +47,6 @@ Any other class declarations should be put at the top of the file, before the ma
 ### TypeScript
 
 Put any type or class declarations at the top of the file before the problems.
-
 
 
 
