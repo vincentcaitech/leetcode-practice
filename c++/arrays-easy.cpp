@@ -29,5 +29,23 @@ class Solutions{
             }
             return digits;
         }
-        
+
+        //Move Zeroes
+        void moveZeroes(vector<int>& nums) {
+            int i =0;
+            int n = 0;
+            while(i<nums.size()-n){
+                if(nums[i]==0){
+                    int temp = nums[i];
+                    nums.erase(nums.begin()+i);
+                    nums.push_back(temp);
+                    n++;
+                    // for(int i:nums) cout << nums[i];
+                    // cout << endl;
+                }else{
+                    i++;
+                }
+            }
+        }
+
 };
